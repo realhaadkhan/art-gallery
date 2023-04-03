@@ -54,11 +54,14 @@ if (!empty($_GET["action"])) {
         width: 290px;
         height: 175px
     }
+img {
+  transition: transform 6s;
+}
 
-    img:hover {
-        transform: scale(1.5);
-        transition: 0.5s ease;
-    }
+img:hover {
+  transform: scale(1);
+}
+
 </style>
 
 <BODY>

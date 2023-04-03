@@ -52,7 +52,7 @@ INSERT INTO `images` (`id`, `name`, `artist`, `code`, `image`, `price`, `categor
 (8, 'Abstract Image 8', 'Edward', 'at8', 'product-images/img8.jpg', 100.00, 'abstract'),
 (9, 'Abstract Image 9', 'Michalengelo', 'at9', 'product-images/img9.jpg', 100.00, 'abstract'),
 (10, 'Landscape Art 1', 'Rambrandet', 'l1', 'product-images/l1.jpg', 1500.00, 'landscape'),
-(11, 'Landscape Art 2', 'Vincet', 'l2', 'product-images/l2.jpeg', 800.00, 'landscape'),
+(11, 'Landscape Art 2', 'Vincet', 'l2', 'product-images/l2.jpg', 800.00, 'landscape'),
 (12, 'Landscape Art 3', 'Michalengelo', 'l3', 'product-images/l3.jpg', 300.00, 'landscape'),
 (13, 'Landscape Art 4', 'Veermeer', 'l4', 'product-images/l4.jpg', 800.00, 'landscape'),
 (14, 'Landscape Art 5', 'Claude', 'l5', 'product-images/l5.jpg', 300.00, 'landscape'),

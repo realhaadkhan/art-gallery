@@ -27,7 +27,7 @@
   <div id="loader" class="center"></div>
 
   <?php include('navbar.php'); ?>
-
+  
   <?php include('footer.php'); ?>
 
   <script>

@@ -11,7 +11,7 @@
                 <li><a href="paints.php?q=indian">Contemporary</a></li>
             </ul>
         </li>
-        <li><a href="" onclick="">Know Us</a></li>
+        <li><a href="#foot" onclick="">Know Us</a></li>
     </ul>
 
     <div class="search-icon">
@@ -25,8 +25,9 @@
         <button type="submit" class="fas fa-search"></button>
     </form>
 </nav>
-<div class="content" style="z-index: 50;">
+<div class="content" style="z-index: 80;">
     <div class="space text">
-        Quality and Affordable Art For All
-    </div>
+
+    <!-- <br><br><br><br><br>Quality and affordable Art for all -->
+</div>
 </div>

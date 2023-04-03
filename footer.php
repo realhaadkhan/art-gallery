@@ -1,5 +1,5 @@
 <footer>
-    <div class="footer">
+    <div id="foot" class="footer">
         <div class="contain">
             <div class="col">
                 <h2>Company</h2>
