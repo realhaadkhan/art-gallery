@@ -223,5 +223,3 @@ if (!empty($_GET["action"])) {
 </BODY>
 
 </HTML>
-
-<!-- hover kaise hatane ka??  -->
