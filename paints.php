@@ -50,17 +50,10 @@ if (!empty($_GET["action"])) {
 </HEAD>
 
 <style>
-    img {
+    .product-image img {
         width: 290px;
         height: 175px
     }
-img {
-  transition: transform 6s;
-}
-
-img:hover {
-  transform: scale(1);
-}
 
 </style>
 
@@ -165,7 +158,7 @@ img:hover {
 
         if (isset($_POST['search'])) {
             $search = $_POST['search'];
-            $product_array = $db_handle->runQuery("SELECT * FROM images WHERE CONCAT_WS(name,artist) LIKE '%" . $search . "%'");
+            $product_array = $db_handle->runQuery("SELECT * FROM images WHERE CONCAT(name,artist) LIKE '%" . $search . "%'");
             if (!empty($product_array)) {
                 foreach ($product_array as $key => $value) {
                 ?>
@@ -230,3 +223,5 @@ img:hover {
 </BODY>
 
 </HTML>
+
+<!-- hover kaise hatane ka??  -->

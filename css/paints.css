@@ -78,8 +78,9 @@
 	background-color: #d8e3e4;
 }
 
-.product-image img:hover {
-	transform: scale(3);
+.product-image img {
+	width: 290px;
+	height: 175px
 }
 
 

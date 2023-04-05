@@ -123,7 +123,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                     <option value="abstract">Abstract</option>
                     <option value="landscape">Landscape</option>
                     <option value="indian_contemporary">Indian Contemporary</option>
-                    <option value="figurative">Figurative</option>
+                    <option value="sculpture">Sculptures</option>
                     <option value="monochrome">Monochrome</option>
                 </select></label>
             <br>
