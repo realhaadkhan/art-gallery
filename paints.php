@@ -145,7 +145,7 @@ if (!empty($_GET["action"])) {
                                 </div>
                                 <div class="cart-action">
                                     <input type="hidden" class="product-quantity" name="quantity" value="1" size="2" />
-                                    <input type="submit" value="Buy" class="btnAddAction" />
+                                    <input type="submit" value="Add to cart" class="btnAddAction" />
                                 </div>
                             </div>
                         </form>
