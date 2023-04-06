@@ -95,8 +95,6 @@ if (!empty($_GET["action"])) {
                             <td style="text-align:center;"><a href="paints.php?action=remove&code=<?php echo $item["code"]; ?>" class="btnRemoveAction"><img src="images/icon-delete.png" alt="Remove Item" /></a></td>
                         </tr>
                     <?php
-                        // $total_quantity += $item["quantity"];
-                        // $total_price += ($item["price"] * $item["quantity"]);
                     }
                     ?>
 
