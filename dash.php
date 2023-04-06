@@ -1,3 +1,12 @@
+<?php
+include('db_conn.php');
+session_start();
+$user_id = $_SESSION['id'];
+$preference = $_SESSION['preference'];
+if (!isset($user_id)) {
+    header("Location: index.php");
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -31,7 +40,7 @@
   <?php include('footer.php'); ?>
 
   <script>
-    document.onreadystatechange = function () {
+  document.onreadystatechange = function () {
       if (document.readyState !== "complete") {
         document.querySelector("body").style.visibility = "hidden";
         document.querySelector("#loader").style.visibility = "visible";
@@ -40,7 +49,6 @@
         document.querySelector("body").style.visibility = "visible";
       }
     };
-
   </script>
 
 </body>
